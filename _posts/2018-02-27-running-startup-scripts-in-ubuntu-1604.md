@@ -73,12 +73,12 @@ systemctl daemon-reload
 To get the service to start at boot, use the enable command
 
 {% highlight ruby %}
-sudo systemctl enable stunnel_cd.service
+sudo systemctl enable brightness.service
 {% endhighlight %}
 
 
 To stop the service from starting automatically:
 
 {% highlight ruby %}
-sudo systemctl disable application.service
+sudo systemctl disable brightness.service
 {% endhighlight %}
