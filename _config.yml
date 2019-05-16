@@ -1,0 +1,19 @@
+
+name: Blog Starter Template
+highlighter: pygments
+markdown: kramdown
+disqus: # disqus-username
+google_analytics_id: '' # XY-99999999-9
+
+description: z4pu
+
+author:
+  name: z4pu
+#  email: ''
+  github: z4pu
+  linkedin: shazinazaini
+  email_md5: '' # used for gravatar sidebar user image
+
+BASE_PATH:
+
+rss_path: rss.xml
