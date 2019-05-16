@@ -31,29 +31,15 @@
   </head>
   <body>
     <div class="site">
-      <div class="sidebar" id="sidebar">
+      <div class="col-sm-3 sidebar hidden-xs" id="sidebar">
           <div class="header">
               <h1 class="title">
                   <a href="/">
                       <img src="/assets/images/badger.png" class="img-circle"/>
                   </a>
               </h1>
-              <span class="tagline">{{ site.description }}</span>
+              <span class="tagline"><a href="/about.html">{{ site.description }}</a></span>
           </div>
-        <div class="posts">
-          <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-
-
         <div class="footer">
             {% include social-links.html %}
         </div>

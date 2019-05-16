@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # ==========================================================================
 # Setup script for installing project dependencies.
@@ -23,4 +23,3 @@ build(){
 }
 
 build
-
