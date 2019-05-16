@@ -1,6 +1,6 @@
 
 name: Blog Starter Template
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 disqus: # disqus-username
 google_analytics_id: '' # XY-99999999-9
