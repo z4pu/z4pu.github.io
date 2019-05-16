@@ -17,9 +17,9 @@
     </div>
     <div class="colophon">
         <p>
-            <span id="pub-date">Published on {{ page.date | date_to_string }}</span>
+            <span id="pub-date">{{ page.date | date_to_string }}</span>
             <span
-                class="separator">&bull;</span>
+                class="separator">&nbsp;</span>
             <a class="twitter"
                href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
